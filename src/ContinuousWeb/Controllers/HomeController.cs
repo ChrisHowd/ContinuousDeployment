@@ -16,7 +16,6 @@ namespace WebApplication.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
-            // throw new NotImplementedException();
 
             return View();
         }
